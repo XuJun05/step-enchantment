@@ -1,0 +1,38 @@
+{
+  "anvil_cost": 4,
+  "description": {
+    "translate": "enchantment.step-enchantment.step"
+  },
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:lookup",
+          "fallback": 2.5,
+          "values": [
+            0.5,
+            1.5,
+            2.5
+          ]
+        },
+        "attribute": "minecraft:step_height",
+        "id": "step-enchantment:step_height",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 45,
+    "per_level_above_first": 15
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2
+}

@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "step-enchantment",
+	"version": "${version}",
+	"name": "Step Enchantment",
+	"description": "Adds the Step enchantment for boots, allowing players to walk up 1, 1.5, or 3 blocks smoothly!",
+    "authors": [
+    "XuJun05"
+  ],
+    "contact": {
+      "homepage": "https://www.planetminecraft.com/mod/step-enchantment/",
+      "sources": "https://github.com/XuJun05/step-enchantment",
+      "issues": "https://github.com/XuJun05/step-enchantment/issues"
+  },
+    "license": "LGPL-3.0-only",
+	"icon": "assets/step-enchantment/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"gay.xujun05.se.StepEnchantment"
+		]
+	},
+	"mixins": [
+		"step-enchantment.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.1.2 <=26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+    },
+  "custom": {
+    "modmenu": {
+      "links": {
+        "DISCORD": "https://discord.gg/faSR5NHecV"
+      }
+    }
+  }
+}
